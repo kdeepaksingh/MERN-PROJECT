@@ -1,0 +1,360 @@
+.signup-bg {
+  background-image   : linear-gradient(rgba(95,135, 118, 0.6), rgba(181,92,40,0.6)), url('https://i0.wp.com/picjumbo.com/wp-content/uploads/freelance-man-working-on-his-laptop.jpg?resize=350%2C200&ssl=1');
+  background-position: center;
+  background-size    : cover;
+  width              : 100%;
+  height             : 100%;
+  margin-top         : 1px;
+  border-radius      : 10px;
+}
+.login-bg {
+  background-image   : linear-gradient(rgba(95,135, 118, 0.6), rgba(181,92,40,0.6)), url('https://i0.wp.com/picjumbo.com/wp-content/uploads/freelance-man-working-on-his-laptop.jpg?resize=350%2C200&ssl=1');
+  background-position: center;
+  background-size    : cover;
+  width              : 100%;
+  height             : 100%;
+  margin-top         : 1px;
+  border-radius      : 10px;
+}
+
+.form_style {
+  margin: 2% auto;
+  padding: 7px 0px;
+  text-align: center;
+  box-shadow: 0 3px 23px #cba184;
+  background: #e7e2b9;
+  border-radius: 10px;
+}
+.login_form_style {
+  margin       : 4% auto;
+  padding      : 7px 0px;
+  text-align   : center;
+  box-shadow   : 0 3px 23px #000000;
+  background   : #e7e2b9;
+  border-radius: 10px;
+  width: 50%;
+  height: 250px !important;
+}
+
+.input-box {
+  margin    : 10px auto;
+  width     : 80%;
+  position  : relative;
+  box-shadow: 0 3px 4px -5px #000000;
+
+}
+
+.input-box input {
+  width        : 100%;
+  height       : 40px;
+  border       : none;
+  background   : #253144;
+  padding-left : 50px;
+  border-radius: 20px;
+  outline      : none;
+  color        : #fff !important;
+}
+.Sign-In-Header {
+  font-family            : sans-serif;
+  text-align             : center;
+  margin-top             : 15px;
+  font-size              : 80px;
+  font-weight            : 800;
+  color                  : transparent;
+  background-image       : url(https://media.giphy.com/media/l0MYMranKNhMUFveE/giphy.gif);
+  background-position    : center;
+  -webkit-background-clip: text;
+}
+.forgot_text_style{
+  color: #26080d;
+    font-size: 15px;
+    padding-right: 75px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.already_acc_style{
+  color: #141002;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.already_login_style{
+  color: #1b1d1e;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+span {
+  position     : absolute;
+  left         : 0;
+  top          : 0;
+  height       : 40px;
+  width        : 40px;
+  border-radius: 6px 0px 0px 6px;
+  background   : linear-gradient(to right, #980917, #1b4c6f);
+}
+
+span .fa {
+  padding: 10px;
+  color  : #fff;
+}
+
+button {
+  width        : 130px;
+  height       : 30px;
+  margin-left  : 10%;
+  display      : block;
+  color        : #fff;
+  border       : 0;
+  font-size    : 16px;
+  outline      : none;
+  border-radius: 6px 6px 6px 6px !important;
+  background   : linear-gradient(to right, #980917, #1b4c6f);
+  box-shadow   : 0 8px 10px -10px rgb(0, 0, 0);
+  cursor       : pointer;
+}
+
+button .fa {
+  margin-right: 10px;
+}
+
+form img {
+  width        : 100px;
+  margin-top   : -50px;
+  border-radius: 50%;
+}
+
+::placeholder {
+  color: white !important;
+}
+
+.Sign-Up-Header {
+  font-family            : sans-serif;
+  text-align             : center;
+  /* margin-top             : 15px; */
+  font-size              : 60px;
+  font-weight            : 800;
+  color                  : transparent;
+  background-image       : url(https://media.giphy.com/media/3o7aCWyaY8icmPnW9O/giphy.gif);
+  background-position    : center;
+  -webkit-background-clip: text;
+  
+}
+.contact_us_address {
+  border-radius: 10px;
+    background: bisque;
+    margin-left: 7px;
+    padding: 15px;
+    margin-top: 5px;
+    border: 2px solid olive;
+    box-shadow: 0 8px 10px -8px rgb(151 75 75);
+}
+
+.contact_us_address > i {
+  font-size: 25px;
+  color: #3e0ed1;
+  padding: 8px;
+  font-weight: bold;
+}
+.contact_us_address > label {
+  font-size: 20px;
+  font-weight: 700;
+  color: olive;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+.contact_us_address > p {
+  font-weight: 700;
+    margin: 2px;
+    font-size: 20px;
+    color: purple;
+    margin-left: 10px;
+}
+.centerdiv {
+  /* // height: 100vh; */
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+
+}
+.message-box {
+  margin    : 15px auto;
+  width     : 80%;
+  position  : relative;
+  box-shadow: 0 3px 4px -5px #000000;
+}
+
+.message-box textarea {
+  width        : 100%;
+  height       : 120px;
+  border       : none;
+  background   : #253144;
+  padding-left : 50px;
+  border-radius: 20px;
+  outline      : none;
+  color        : #fff !important;
+}
+
+.input-box input {
+  width        : 100%;
+  height       : 40px;
+  border       : none;
+  background   : #253144;
+  padding-left : 50px;
+  border-radius: 20px;
+  outline      : none;
+  color        : #fff !important;
+}
+
+.textareaspan {
+  position: absolute;
+}
+
+.textareaspan .fa {
+  padding: 10px;
+  color  : #fff;
+}
+span .fa {
+  padding: 10px;
+  color  : #fff;
+}
+.contact_us_form_style {
+  margin: 2% auto;
+  padding: 7px 0px;
+  text-align: center;
+  box-shadow: 0 3px 23px #cba184;
+  background: #e7e2b9;
+  border-radius: 10px;
+  width: 70%;
+}
+.about_us_form_style {
+  /* margin: 2% auto; */
+  padding: 7px 0px;
+  text-align: center;
+  box-shadow: 0 3px 23px #cba184;
+  background: #e7e2b9;
+  border-radius: 10px;
+  width: 100%;
+}
+.contact_us_header {
+  font-family            : sans-serif;
+  text-align             : center;
+  margin-top             : 0px;
+  font-size              : 40px;
+  font-weight            : 800;
+  color                  : transparent;
+  background-image       : url(https://media.giphy.com/media/armpKTcxYqWjK/giphy.gif);
+  background-position    : center;
+  -webkit-background-clip: text;
+}
+.home_page_header {
+  font-family            : sans-serif;
+  text-align             : center;
+  margin-top             : 0px;
+  font-size              : 40px;
+  font-weight            : 800;
+  color                  : transparent;
+  background-image       : url(https://media.giphy.com/media/BlcWQ9L2VfOFO/giphy.gif);
+  background-position    : center;
+  -webkit-background-clip: text;
+}
+.error_page_header {
+  font-family            : sans-serif;
+  text-align             : center;
+  margin-top             : 0px;
+  font-size              : 40px;
+  font-weight            : 800;
+  color                  : transparent;
+  background-image       : url(https://media.giphy.com/media/9MJ65OWvrNIXnOiNEk/giphy.gif);
+  background-position    : center;
+  -webkit-background-clip: text;
+}
+.about_us_header {
+  font-family            : sans-serif;
+  text-align             : center;
+  margin-top             : 0px;
+  font-size              : 40px;
+  font-weight            : 800;
+  color                  : transparent;
+  background-image       : url(https://media.giphy.com/media/3oxHQuzoRW1LFsUfQc/giphy.gif);
+  background-position    : center;
+  -webkit-background-clip: text;
+}
+.home_page{
+  background   : linear-gradient(to right, #d0ebe5, #d7e798);
+  height: 100vh;
+}
+.error_page{
+  background   : linear-gradient(to right, #f5d7db, #b9eface0);
+  height: 100vh;
+}
+.error_page label{
+  margin-top: 40vh ;
+  color: blue;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.error_page p{
+  color: purple;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.home_page label{
+  margin-top: 40vh ;
+  color: blue;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.home_page p{
+  color: purple;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.about_img{
+  width: 100px !important;
+  border-radius: 10% !important;
+  margin-top: 0px;
+}
+.profile_head{
+  padding: 10px;
+  margin: 0px;
+}
+.profile_head h5{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #040346;
+}
+.profile_head h6{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #015a3e;
+  margin-top: 25px;
+}
+.profile_head p{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #442001;
+}
+.error_page_style {
+  font-size: 30px;
+    background: olive;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #000f18f7;
+    padding: 6px;
+    font-weight: bold;
+}

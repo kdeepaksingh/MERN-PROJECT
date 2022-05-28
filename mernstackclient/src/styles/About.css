@@ -1,0 +1,105 @@
+/* // social icon style */
+a {
+    height          : 80px;
+    width           : 80px;
+    background-color: #f5f6fa;
+    margin          : 6px;
+    text-align      : center;
+    border-radius   : 50%;
+    line-height     : 110px;
+    position        : relative;
+    overflow        : hidden;
+}
+
+.fa-instagram {
+    color: #e84393 !important;
+}
+
+.fa-facebook {
+    color: blue !important;
+}
+
+.fa-twitter {
+    color: #0097e6 !important;
+}
+
+.fa-linkedin {
+    color: #0097e6 !important;
+}
+
+.fa-gitlab {
+    color: #e84393 !important;
+}
+
+.fa-youtube {
+    color: #e84118 !important;
+}
+
+a i {
+    transition: all 0.3s linear;
+}
+.popup-title-bg {
+    position  : relative;
+    background: linear-gradient(120deg, #980917 0%, #1b4c6f 100%) !important;
+    padding   : 1px 12px;
+    color     : #ffffff;
+    right     : 8px;
+    z-index   : 99;
+    height    : 32px;
+    border-radius: 8px 0px 0px 0px;
+}
+
+.popup-title-bg:after {
+    content      : "";
+    position     : absolute;
+    right        : 0;
+    bottom       : 0;
+    width        : 0;
+    height       : 0;
+    border-top   : 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.popup-title-bg:before {
+    content      : "";
+    position     : absolute;
+    right        : 0px;
+    bottom       : 0;
+    width        : 0;
+    height       : 0;
+    border-right : 20px solid #d3eaee;
+    border-top   : 17px solid transparent;
+    border-bottom: 13px solid transparent;
+}
+
+.label-font {
+    font-weight: 500;
+    font-size  : 15px;
+    margin-top : 4px;
+    margin-left: -90px;
+}
+.icon_style {
+    padding: 6px;
+    margin: 0px;
+}
+.profile_content {
+    margin-top: 10px;
+    padding: 2px;   
+}
+.profile_content label {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #660966;
+}
+.profile_content p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #044e2c;
+    margin-left: 18px;
+    margin-top: -3px;
+}
+
+
+
